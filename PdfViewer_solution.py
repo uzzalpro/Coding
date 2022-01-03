@@ -38,7 +38,8 @@ def designerPdfViewer(h, word):
     return value_of_h * n     
             
     
-    
+    # Time Complexity = O(n)
+    # Space Complexity = O(n)
     
     # if "z" in word:
     #     for i in h:
@@ -49,6 +50,9 @@ def designerPdfViewer(h, word):
     #         if i > height:
     #             height = i
     # return height*n
+    
+    # complexity 
+    
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
